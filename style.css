@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    min-height: 100vh;
+    background: black;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:50px 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+
+.logo{
+    size:50%
+}
+
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left:50px;
+}
+
+body{
+    margin-top:200px;
+    padding:50px;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    padding:50px 0px;
+    font-size:9px;
+}
