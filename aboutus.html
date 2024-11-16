@@ -2,28 +2,56 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>TKNG Design</title>
+        <title>TKNG</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="./js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
+    <script> 
+        $(function(){
+            $("#navbar").load("navbar.html"); 
+            $("#footer").load("footer.html"); 
+        });
+        </script> 
     <header class="header">
-        <a href="index.html" class="logo"><img src="TKNGlogositewhite.svg" alt="TKNG-site-logo-white" style="width:200px"/></a>
-        <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="https://tkngstudios.carrd.co/">Social Links</a>
-    </nav>
     </header>
     <body>
-        <aboutus>
-        <h1>About Us</h1>
-        <p>Thomas Kong is a Macau-born artist focused in details and quality contents.<br>
-            His journey of artist was started in 2009 by making fan arts of animated series and games such as Angry Birds, and trying some design and editing softwares.<br>
-            In 2022, the "TKNG" name is started.
-        </p>
-        
-        </aboutus>
+        <div id="navbar"></div>
+        <div class="title">ABOUT US</div>        
+            <article>
+                <H1>Personal Information</H1>         
+                <ul>
+                    <li>Thomas Kong Tin Long</li>
+                    <li>Macau SAR, China</li>
+                    <li>April 19, 2001</li>
+                    <li>National Taipei University of Technology - Studies of Interactive Design</li>
+                </ul>
+                <H1>Hobbies</H1>
+                <ul>
+                    <li>Vector art</li>
+                    <li>3D Modelling</li>
+                    <li>Playing Roblox, Minecarft</li>
+                    <li>Photography</li>
+                    <li>Making music</li>
+                    <li>Coding (not so good)</li>
+                </ul>
+                <H1>Softwares</H1>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustator</li>
+                    <li>Inkscape</li>
+                    <li>DaVinci Resolve</li>
+                    <li>Cyberlink PowerDirector</li>
+                    <li>Audacity</li>
+                    <li>LMMS</li>
+                </ul>
+            </article>
+    </container>
+
+        <div id=footer></div>
     </body>
-    <footer>
-        <p>Copyright &copy TKNG, All rights reserved.</p>
-    </footer>
 </html>
